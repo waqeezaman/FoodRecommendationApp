@@ -3,5 +3,9 @@ import 'package:flutter/material.dart';
 import 'pages/home.dart';
 
 void main() {
-  runApp(const MaterialApp(debugShowCheckedModeBanner: false, home: Home()));
+  runApp(MaterialApp(
+    debugShowCheckedModeBanner: false,
+    home: Home(),
+    theme: ThemeData(fontFamily: "Poppins"),
+  ));
 }
